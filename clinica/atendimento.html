@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Horário de Atendimento - Clínica Médica</title>
+    <style>
+      /* Estilos gerais */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+      }
+      header, footer {
+        background-color: #EEE;
+        padding: 10px;
+        text-align: center;
+      }
+      nav {
+        background-color: #333;
+        color: #FFF;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+      }
+      nav a {
+        color: #FFF;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.2em;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      h1, h2 {
+        text-align: center;
+      }
+      table {
+        margin: 20px auto;
+        border-collapse: collapse;
+      }
+      th, td {
+        padding: 10px;
+        border: 1px solid #999;
+      }
+      form {
+        margin: 20px auto;
+        max-width: 600px;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #999;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+      input[type="submit"],
+      input[type="reset"] {
+        background-color: #333;
+        color: #FFF;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      input[type="submit"]:hover,
+      input[type="reset"]:hover {
+        background-color: #666;
+      }
+      iframe {
+        width: 100%;
+        height: 400px;
+        border: none;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="header3.jpg" alt="Header">
+      <nav>
+        <a href="index.html">Página Principal</a>
+        <a href="atendimento.html">Horário de Atendimento</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+    </header>
+    <main>
+      <h1>Horário de Atendimento</h1>
+      <p>Aqui na Clínica Médica, estamos prontos para atendê-lo(a) com toda a atenção e cuidado que você merece. Confira nossos horários de atendimento abaixo:</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Serviços</th>
+            <th>Segunda a Sexta</th>
+            <th>Sábados</th>
+            <th>Feriados</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Clínica Geral</td>
+            <td>08h - 19h</td>
+            <td>08h - 14h</td>
+            <td>08h - 14h</td>
+          </tr>
+          <tr>
+            <td>Psicologia</td>
+            <td>08h - 19h</td>
+            <td>08h - 14h</td>
+            <td>08h - 14h</td>
+          </tr>
+          <tr>
+            <td>Pediatria</td>
+            <td>08h - 19h</td>
+            <td>08h - 18h</td>
+            <td>-</td>
+          </tr>
+          <tr>
+            <td>Oftalmologia</td>
+            <td>08h - 19h</td>
+            <td>08h - 18h</td>
+            <td>-</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    <footer>
+      <div class="contact-info">
+        <h3>Contato</h3>
+        <p>Telefone: (11) 5555-5555</p>
+        <p>WhatsApp: (11) 99999-9999</p>
+        <p>Endereço: Rua dos Médicos, 123 - Centro - São Paulo/SP</p>
+      </div>
+      <div class="map">
+        <h3>Localização</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.156725026109!2d-46.63697878499978!3d-23.551930268446935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5901bfbf743b%3A0xb53c503a5f01a5c5!2sAv.%20Paulista%2C%201234%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001000-000!5e0!3m2!1sen!2sbr!4v1656746803137!5m2!1sen!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
