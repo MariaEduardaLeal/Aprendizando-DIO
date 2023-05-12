@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+</head>
+<body>
+    <form method="get">
+        <label>Nome: </label><input type="text" name="nome">
+        <label>Cargo: </label>
+        <select name="role">
+            <option value="">Selecione o cargo</option>
+            <option value="Administrativo">Administrativo</option>
+            <option value="TI">Gerente</option>
+            <option value="diretor">Diretor</option>
+            <option value="presidemte">Presidente</option>
+        </select>
+        <br>
+        <label>Assunto:</label><input type="text" name="subject"><br>
+        <label>Mensagem</label>
+        <textarea name="message" cols="30" rows="10"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox e Radios</title>
+</head>
+<body>
+    <form method="get">
+        <h3>Você selecinou Pizza de Calabresa</h3>
+        <p>Quais Opcionais você deseja? </p>
+        <!-- temos que colocar o [] depois de opcional para que a linguagem back end entenda que isso é uma lista, não apenas um valor
+        se colocarmos sem o valor que chegará no servidor será apenas o último selecionado -->
+        <input type="checkbox" name="opcional[]" value="queijo"> + queijo <br>
+        <input type="checkbox" name="opcional[]" value="calabresa"> + calabreda <br>
+        <input type="checkbox" name="opcional[]" value="cebole"> + cebola <br>
+
+        <p>Borda recheada? </p>
+        <!-- temos que colocar o mesmo name nesses radio para que o usuário não consiga selecionar os dois valores -->
+        <input type="radio" name="borda" value="sim">Sim <br>
+        <input type="radio" name="borda" value="nao">Não <br>
+
+        <p>Bedida</p>
+        <input type="radio" name="bebida" value="suco">Suco <br>
+        <input type="radio" name="bebida" value="refrigerante">Refrigerante <br>
+        <input type="radio" name="bebida" value="agua">Água <br>
+        <input type="radio" name="bebida" value="nenhum">Nenhum <br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
