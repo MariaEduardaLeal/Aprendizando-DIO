@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores pré definidas</title>
+    <style>
+        div{
+            width: 200px;
+            height: 300px;
+            border: 5px solid blue;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            border: 5px solid blue;
+        }
+        #contain{
+            object-fit: contain;
+        }
+        #cover{
+            object-fit: cover;
+        }
+        #none{
+            object-fit: none;
+        }
+        #scale-down{
+            object-fit: scale-down;
+        }
+    </style>
+</head>
+<body>
+    <h1>Porpriedade <code>object-fit</code></h1>
+
+    <code>object-fit:fill ;</code>(padrão)
+    <div>
+        <img src="Captura de Tela (278).png" alt="">
+    </div>
+
+    <code>object-fit:contain ;</code>
+    <div>
+        <img src="Captura de Tela (278).png" id="contain">
+    </div>
+
+    <code>object-fit:cover ;</code>
+    <div>
+        <img src="Captura de Tela (278).png" id="cover">
+    </div>
+
+    <code>object-fit:none ;</code>
+    <div>
+        <img src="Captura de Tela (278).png" id="none">
+    </div>
+
+    <code>object-fit:scale-down ;</code>
+    <div>
+        <img src="Captura de Tela (278).png" id="scale-down">
+    </div>
+
+</body>
+</html>
