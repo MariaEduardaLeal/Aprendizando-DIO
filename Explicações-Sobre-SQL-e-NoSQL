@@ -1,0 +1,32 @@
+<h1>Bancos de Dados Relacionais (SQL)</h1>
+<h2>Definição</h2>
+<ul>
+<li>Os bancos de dados relacionais são sistemas de gerenciamento de bancos de dados (SGBDs) que armazenam e organizam dados estruturados em tabelas relacionais.</li>
+<li>Eles seguem o modelo de dados relacional, onde as relações entre as tabelas são estabelecidas por meio de chaves primárias e chaves estrangeiras.</li>
+</ul>
+<h2Características principais</h2>
+<ul>
+<li>Estrutura organizada: Os dados são organizados em tabelas com colunas predefinidas e tipos de dados específicos.</li>
+<li>Esquema fixo: O esquema do banco de dados é definido antecipadamente, especificando a estrutura das tabelas, tipos de dados e relacionamentos.</li>
+<li>Linguagem de consulta: Utiliza a linguagem SQL (Structured Query Language) para manipular e consultar os dados.</li>
+<li>Transações ACID: Suporta transações ACID (Atomicidade, Consistência, Isolamento e Durabilidade), garantindo a integridade dos dados.</li>
+</ul>
+<h2>Exemplos de SGBDs relacionais</h2>
+<ul>
+<li>MySQL</li>
+<li>PostgreSQL</li>
+<li>Microsoft SQL Server</li>
+</ul>
+<h2>Papel dos Bancos de Dados Relacionais para um Engenheiro de Dados</h2>
+Modelagem de dados: O Engenheiro de Dados utiliza conceitos de modelagem relacional para projetar o esquema do banco de dados, identificando as entidades, atributos e relacionamentos.
+Extração, Transformação e Carga (ETL): Os dados são extraídos de várias fontes, transformados e carregados em um banco de dados relacional para análise e processamento posterior.
+Consultas SQL: O Engenheiro de Dados escreve consultas SQL complexas para extrair informações dos bancos de dados, realizar análises e gerar relatórios.
+Otimização de desempenho: Monitora e otimiza o desempenho do banco de dados, criando índices, otimizando consultas e ajustando configurações para garantir um acesso eficiente aos dados.
+Bancos de Dados Não Relacionais (NoSQL)
+Definição
+Os bancos de dados não relacionais, também conhecidos como NoSQL (Not Only SQL), são sistemas de gerenciamento de bancos de dados que armazenam dados de forma não estruturada ou semiestruturada.
+Eles foram desenvolvidos para lidar com volumes massivos de dados, escalabilidade horizontal e casos de uso onde a estrutura dos dados é variável ou desconhecida antecipadamente.
+Características principais
+Esquema flexível: Os bancos de dados NoSQL permitem adicionar, modificar e remover dados sem a necessidade de definir um esquema rígido.
+Armazenamento distribuído: São projetados para escalar horizontalmente, permitindo que os dados sejam distribuídos em vários servidores.
+Modelos de dados diversos: Existem diferentes tipos de bancos de dados NoSQL, incluindo documentos, colunas, grafos e chave-valor, cada um adequado para diferentes tipos de dados e casos de uso
